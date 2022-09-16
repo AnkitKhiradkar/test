@@ -5,7 +5,7 @@ Pipeline {
             
             stage('stage-1'){
                 steps {
-                    echo "this is Poll SCM" >> /mnt/pollSCM
+                    sh "echo "this is Poll SCM" >> /mnt/pollSCM"
                 }
             
             }
